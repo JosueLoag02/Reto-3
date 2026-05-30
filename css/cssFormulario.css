@@ -1,0 +1,36 @@
+#titulo{
+    text-align: center;
+    border: 2px solid black;
+    background-color: aqua;
+    font-family: arial;
+    font-size: xx-large;
+}
+body{
+    background: linear-gradient(to right, blue, purple);
+}
+form {
+    border: 2px solid black;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nombreUsuario{
+    background-color: blueviolet;
+}
+.infoRegistro{
+    background-color: green;
+}
+.descUsuario{
+    background-color: yellow;
+}
+.interes{
+    background-color: orange;
+}
+#boton{
+    display: block;
+    margin: auto;
+    background-color: black;
+    color: white;
+}

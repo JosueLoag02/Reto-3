@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <title>Registro de la persona usuaria</title>
+    <link rel="stylesheet" href="css/cssFormulario.css">
+</head>
+<body>
+
+    <h1 id="titulo">REGISTRO DE LA PERSONA USUARIA</h1>
+
+    <form>
+        <div class="nombreUsuario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <p></p>
+      
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido">
+
+        <p></p>
+        </div>
+
+        <div class="infoRegistro">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo">
+        <p></p>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password">
+
+        <p></p>
+        </div>
+        <div class="descUsuario">
+        <label for="descripcion">Descripción sobre ti:</label>
+        <textarea id="descripcion" name="descripcion"></textarea>
+        </div>
+        <p></p>
+        <div class="interes">
+        <label>Intereses:</label>
+
+        <input type="checkbox" id="tecnologia" name="intereses">
+        <label for="tecnologia">Tecnología</label>
+
+        <input type="checkbox" id="arte" name="intereses">
+        <label for="arte">Arte</label>
+
+        <input type="checkbox" id="deporte" name="intereses">
+        <label for="deporte">Deporte</label>
+        </div>
+        <p></p>
+
+        <input type="submit" value="Registrarse" id="boton">
+
+    </form>
+
+</body>
+</html>
